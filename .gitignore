@@ -1,0 +1,17 @@
+# Ignore the local paths configuration file!
+local_paths.py
+
+# Ignore Jupyter checkpoints and environment caches
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore spatial data and outputs (just in case they ever end up in this folder)
+*.kmz
+*.kml
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.tif
+*.csv
